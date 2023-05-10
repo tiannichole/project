@@ -13,5 +13,8 @@ p {
 }
 
 body {
-    background-image: url(pinkStars.png); 
+    background-image: url(pinkStars.png);
+    background-color: pink;
+    padding-top: 30px;
+    text-align: center;
 }
