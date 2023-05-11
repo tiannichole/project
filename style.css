@@ -38,6 +38,14 @@ button {
     color: #FFFF;
 }
 
+.button:hover {background-color: #ff7ff6}
+        
+.button:active {
+    background-color: #2e2e2e;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
+}
+
 img {
     width: 60px;
     height: 60px;
