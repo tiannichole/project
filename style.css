@@ -25,3 +25,13 @@ body {
     padding-top: 30px;
     text-align: center;
 }
+
+button {
+    background-color: #000000;
+    border: 4px solid #FFFFFF;
+    padding: 15px 25px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 px #999;
+}
