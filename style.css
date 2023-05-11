@@ -28,7 +28,7 @@ body {
 button {
     background-color: #eb92cb;
     border: 10px solid #FFFFFF;
-    padding: 20px 40px;
+    padding: 20px 20px;
     cursor: pointer;
     display: inline-block;
     text-align: center;
@@ -38,15 +38,8 @@ button {
     color: #FFFF;
 }
 
-.button:hover {background-color: #ff7ff6}
-        
-.button:active {
-    background-color: #2e2e2e;
-    box-shadow: 0 5px #666;
-    transform: translateY(5px);
-}
-
 img {
     width: 60px;
     height: 60px;
+    border-radius: 30px;
 }
