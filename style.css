@@ -38,3 +38,8 @@ button {
     border-radius: 30px;
     color: #FFFF;
 }
+
+img {
+    width: 30px;
+    height: 40px;
+}
