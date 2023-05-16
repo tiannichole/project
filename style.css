@@ -28,7 +28,7 @@ body {
 button {
     background-color: #eb92cb;
     border: 5px solid #FFFFFF;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
     display: inline-block;
     text-align: center;
@@ -41,5 +41,5 @@ button {
 img {
     width: 60px;
     height: 60px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
