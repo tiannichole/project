@@ -13,7 +13,7 @@ p {
 }
 
 h1 {
-    color: #B404AE;
+    color: #DF01D7;
     text-align: center;
     margin-top: 100px;
     font-size: 80px;
@@ -26,9 +26,9 @@ body {
 }
 
 button {
-    background-color: #DF01D7;
+    background-color: #eb92cb;
     border: 5px solid #FFFFFF;
-    padding: 10px 10px;
+    padding: 15px 15px;
     cursor: pointer;
     display: inline-block;
     text-align: center;
