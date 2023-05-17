@@ -27,6 +27,19 @@ body {
     text-align: center;
 }
 
+button {
+    background-color: #eb92cb;
+    border: 5px solid #FFFFFF;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 3 px #999;
+    margin: 5px;
+    border-radius: 30px;
+    color: #FFFF;
+}
+
 button1 {
     background-color: #eb92cb;
     border: 5px solid #FFFFFF;
