@@ -14,7 +14,7 @@ p {
     color: #000000;
     margin: 100px;
     margin-top: 100px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h1 {
@@ -35,27 +35,26 @@ button {
     text-align: center;
     box-shadow: 3 px #999;
     margin: 5px;
-    border-radius: 30px;
     color: #FFFF;
     position: static;
 }
 
-button1 {
+button.icons {
     background-color: #eb92cb;
     border: 5px solid #FFFFFF;
-    padding: 15px 20px;
+    padding: 18px;
     cursor: pointer;
     display: inline-block;
     text-align: center;
     box-shadow: 3 px #999;
     margin: 5px;
-    border-radius: 30px;
+    border-radius: 45px;
     color: #FFFF;
     position: bottom 30%;
 }
 
 img {
-    width: 65px;
-    height: 65px;
-    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
 }
