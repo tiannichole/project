@@ -29,7 +29,7 @@ h1 {
 button {
     background-color: #eb92cb;
     border: 5px solid #FFFFFF;
-    padding: 25px 60px;
+    padding: 20px 50px;
     cursor: pointer;
     display: inline-block;
     text-align: center;
@@ -37,13 +37,14 @@ button {
     margin: 5px;
     color: #FFFF;
     position: static;
-    font-size: inherit;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 button.icons {
     background-color: #eb92cb;
     border: 5px solid #FFFFFF;
-    padding: 18px;
+    padding: 18px 25px;
     cursor: pointer;
     display: inline-block;
     text-align: center;
@@ -51,7 +52,8 @@ button.icons {
     margin: 5px;
     border-radius: 45px;
     color: #FFFF;
-    position: bottom 30%;
+    position: relative;
+    bottom: 90%;
 }
 
 img {
