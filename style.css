@@ -17,6 +17,12 @@ p {
     font-size: 25px;
 }
 
+.red {
+    padding: 5px;
+    border: 5px solid rgb(130, 33, 33);
+    color: white;
+}
+
 h1 {
     color: #FA58D0;
     text-align: center;
