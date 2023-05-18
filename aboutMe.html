@@ -3,11 +3,15 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <style>
-        .button:hover {background-color: #efa8d5}
+
+        .button {
+            background-color: #952020;
+        }
+
+        .button:hover {background-color: #b41515}
         
         .button:active {
-            background-color: #eb92cb;
-            box-shadow: 0 5px #e982bd;
+            background-color: #b41515;
             transform: translateY(5px);
         }
         
@@ -17,12 +21,34 @@
             background-size: cover;
         }
 
+        .highlight {
+            padding: 25px 17px;
+            background: rgb(130, 33, 33);
+            display: inline-block;
+            line-height: 1.7;
+            font-size: 20;
+        }
+
+        p {
+            color: white;
+        }
+
 
     </style>
 </head>
 
 <body>
-    
-    <p>Hello!</p>
+    <p>
+        <span class="highlight">
+            Hello! My name is Nichole Tian and I'm currently a high school senior. 
+            Next year, I will attend the University of Washington to study Statistics and Data Science. 
+            Go Huskies!
+            <br>
+            <br>
+            <button class="button">
+                <a href="https://www.gigharbornow.org/2023-students-of-distinction/nichole-tian-student-distinction-2023/">Read about me here!</a>
+            </button>
+        </span>
+    </p>
 
 </body>
