@@ -5,11 +5,17 @@
     font-family: 'Prata', serif;
 }
 
+body {
+    padding-top: 30px;
+    text-align: center;
+}
+
 p {
     color: #000000;
     margin: 100px;
     margin-top: 100px;
     font-size: 20px;
+    display: inline-block;
 }
 
 h1 {
@@ -19,11 +25,6 @@ h1 {
     font-size: 80px;
     text-shadow: 3px 3px 5px #fab8e2;
     font-weight: bold;
-}
-
-body {
-    padding-top: 30px;
-    text-align: center;
 }
 
 button {
@@ -50,6 +51,7 @@ button1 {
     margin: 5px;
     border-radius: 30px;
     color: #FFFF;
+    position: bottom 30%;
 }
 
 img {
