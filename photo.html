@@ -5,15 +5,18 @@
     <style>
 
         .button {
-            background-color: #952020;
+            background-color: #238031;
             color: white;
             text-decoration: none;
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
         }
 
-        .button:hover {background-color: #b41515}
+        .button:hover {background-color: #289639}
         
         .button:active {
-            background-color: #b41515;
+            background-color: #289639;
             transform: translateY(5px);
         }
         
@@ -24,32 +27,75 @@
             background-attachment: fixed;
         }
 
-        .highlight {
-            padding: 25px 17px;
-            background: rgb(130, 33, 33);
-            display: inline-block;
-            line-height: 1.7;
-            font-size: 20;
+        .heading {
+            color: black;
+            font-size: 35px;
+            margin-top: 70px;
         }
 
-        p {
-            color: white;
+        div.gallery {
+            border: 1px solid #ccc;
         }
 
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+            width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
 
     </style>
 </head>
 
+
+    <a href="index.html">
+        <button class="button">
+            Home
+        </button>
+    </a>
+
 <body>
-
-    <p>
-        <a href="index.html">
-            <button class="button">
-                Home
-            </button>
-        </a>
+    <p class="heading">
+        Welcome to the photo gallery!
     </p>
-
 </body>
+
+
 
 </html>
