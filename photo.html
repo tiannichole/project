@@ -9,8 +9,10 @@
             color: white;
             text-decoration: none;
             position: absolute;
-            bottom: 5%;
+            top: 5%;
             left: 5%;
+            margin-top: 50px;
+            margin-left: 40px;
         }
 
         .button:hover {background-color: #289639}
@@ -34,6 +36,40 @@
             margin-top: 70px;
         }
 
+        .img1 {
+            width: 200px;
+            height: 250px;
+            border-radius: 0%;
+            opacity: 0.85;
+            position: relative;
+        }
+
+        .img2 {
+            width: 179px;
+            height: 185px;
+            border-radius: 0%;
+            object-fit: cover;
+            position: absolute;
+            top: 3.5%;
+            left: 2.7%;
+        }
+
+        .container {
+            position: relative;
+            display: inline-block;
+            margin: 15px;
+        }
+
+        .bottom {
+            position: absolute;
+            top: 85%;
+            left:0;
+            right:0;
+            bottom:0;
+            font-weight: bold;
+            color: rgb(4, 73, 4);
+        }  
+
     </style>
 </head>
 
@@ -45,9 +81,23 @@
     </a>
 
 <body>
+
     <p class="heading">
         Welcome to the photo gallery!
     </p>
+
+    <div class="container">
+        <div class="img1">
+            <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
+            <div class="img2">
+                <a target="_blank" href="assets/images/maggie.JPG">
+                    <img class="img2" src="assets/images/maggie.JPG" alt="Maggie"/>
+                </a>
+            </div>
+            <div class="bottom">Test</div>
+        </div>
+    </div>
+   
 </body>
 
 </html>
