@@ -13,13 +13,13 @@
             left: 5%;
             margin-top: 40px;
             margin-left: 40px;
+            border: 5px outset #FFFFFF;
         }
 
         .button:hover {background-color: #289639}
         
         .button:active {
             background-color: #289639;
-            box-shadow: 0 5px #18802e;
             transform: translateY(5px);
         }
 
@@ -31,22 +31,22 @@
         }
 
         .heading {
-            color: black;
+            color: white;
             font-size: 35px;
             margin-top: 70px;
         }
 
         .img1 {
-            width: 200px;
-            height: 250px;
+            width: 250px;
+            height: 300px;
             border-radius: 0%;
             position: relative;
         }
 
         .img2 {
             opacity: 1;
-            width: 179px;
-            height: 185px;
+            width: 229px;
+            height: 235px;
             border-radius: 0%;
             object-fit: cover;
             position: absolute;
@@ -58,6 +58,7 @@
             position: relative;
             display: inline-block;
             margin: 15px;
+            margin-bottom: 60px;
             opacity: 0.9;
         }
 
@@ -75,6 +76,13 @@
             color: rgb(4, 73, 4);
         }
 
+        .highlight {
+            padding: 15px 30px;
+            background: rgb(50, 145, 63);
+            line-height: 1.7;
+            opacity: 0.7;
+        }
+
     </style>
 </head>
 
@@ -88,7 +96,9 @@
 <body>
 
     <p class="heading">
-        Welcome to the photo gallery!
+        <span class="highlight">
+            Welcome to the photo gallery!
+        </span>
     </p>
 
     <div class="container">
@@ -135,7 +145,7 @@
                     <img class="img2" src="assets/images/STAT103HW.jpg" alt="STAT 103 HW"/>
                 </a>
             </div>
-            <div class="bottom" style="font-size: 15px; top: 82%">Harvard Biostatistics Homework</div>
+            <div class="bottom" style="font-size: 15px">Harvard Biostatistics Homework</div>
         </div>
     </div>
 
@@ -148,6 +158,78 @@
                 </a>
             </div>
             <div class="bottom" style="font-size: 14px">Nationals Badge (Debate)</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img1">
+            <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
+            <div class="img2">
+                <a target="_blank" href="assets/images/certificates.jpg">
+                    <img class="img2" src="assets/images/certificates.jpg" alt="Debate"/>
+                </a>
+            </div>
+            <div class="bottom">Debate things!</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img1">
+            <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
+            <div class="img2">
+                <a target="_blank" href="assets/images/nats.jpg">
+                    <img class="img2" src="assets/images/nats.jpg" alt="Nat Quals"/>
+                </a>
+            </div>
+            <div class="bottom" style="font-size: 15px">First Place at Districts (Debate)</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img1">
+            <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
+            <div class="img2">
+                <a target="_blank" href="assets/images/math.jpg">
+                    <img class="img2" src="assets/images/math.jpg" alt="Math"/>
+                </a>
+            </div>
+            <div class="bottom">Maths... Mathing...</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img1">
+            <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
+            <div class="img2">
+                <a target="_blank" href="assets/images/me.jpg">
+                    <img class="img2" src="assets/images/me.jpg" alt="Nichole"/>
+                </a>
+            </div>
+            <div class="bottom">Me!</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img1">
+            <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
+            <div class="img2">
+                <a target="_blank" href="assets/images/UW.jpg">
+                    <img class="img2" src="assets/images/UW.jpg" alt="UW"/>
+                </a>
+            </div>
+            <div class="bottom">Future home! (UW)</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img1">
+            <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
+            <div class="img2">
+                <a target="_blank" href="photo2.html">
+                    <img class="img2" src="assets/images/bonus.jpg" alt="BONUS!"/>
+                </a>
+            </div>
+            <div class="bottom">Bonus... (Click me!)</div>
         </div>
     </div>
 
