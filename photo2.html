@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .button {
+            background-color: #e3c373;
+            color: black;
+            text-decoration: none;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            margin-top: 12px;
+            margin-left: 40px;
+        }
+
+        .button:hover {background-color: #d5b769}
+        
+        .button:active {
+            background-color: #c9ad66;
+            box-shadow: 0 5px #c8a95a;
+            transform: translateY(5px);
+        }
+
+        html {
+            background-image: url(assets/backgrounds/yellowPixel.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .heading {
+            color: black;
+            font-size: 30px;
+            margin-top: 45px;
+            font-weight: bold;
+        }
+
+        .img1 {
+            width: 200px;
+            height: 250px;
+            border-radius: 0%;
+            position: relative;
+        }
+
+        .img2 {
+            opacity: 1;
+            width: 179px;
+            height: 185px;
+            border-radius: 0%;
+            object-fit: cover;
+            position: absolute;
+            top: 3.5%;
+            left: 2.7%;
+        }
+
+        .container {
+            position: relative;
+            display: inline-block;
+            margin: 15px;
+            opacity: 0.9;
+        }
+
+        .container:hover {
+            opacity: 1;
+        }
+
+        .bottom {
+            position: absolute;
+            top: 87%;
+            left:0;
+            right:0;
+            bottom:0;
+            font-weight: bold;
+            color: rgb(4, 73, 4);
+        }
+        
+        .highlight {
+            padding: 15px 30px;
+            background: rgb(239, 197, 118);
+            line-height: 1.7;
+            opacity: 0.7;
+        }
+
+    </style>
+</head>
+
+
+    <a href="index.html">
+        <button class="button">
+            Home
+        </button>
+    </a>
+
+<body>
+
+    <p class="heading">
+        <span class="highlight">
+            Welcome to the ~secret~ photo gallery!
+        </span>
+    </p>
+
+    <div class="container">
+        <div class="img1">
+            <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
+            <div class="img2">
+                <a target="_blank" href="assets/images/lev.jpg">
+                    <img class="img2" src="assets/images/lev.jpg" alt="Leverett"/>
+                </a>
+            </div>
+            <div class="bottom">Harvard dining hall</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
