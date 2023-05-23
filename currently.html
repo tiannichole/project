@@ -13,41 +13,86 @@
         }
         
         html {
-            background-image: url(assets/backgrounds/purplePixel.png);
+            background-image: url(assets/backgrounds/starPixel.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
         }
 
         .h1 {
-            color: black;
+            color: white;
+            margin-top: 40px;
+            text-shadow: 3px 3px 5px grey;
+            font-size: 90px;
+        }
+
+        .h2 {
+            color: white;
+            font-size: 60px;
+            text-shadow: 3px 3px 5px grey;
+        }
+
+        .container {
+            position: relative;
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 30px;
         }
 
     </style>
 </head>
 
 <body>
-    <h1>Current Favorites...</h1>
-    <h2 style="margin-bottom: 40px">Spotify</h2>
+    <h1 class="h1">Current Favorites...</h1>
+    <h2 class="h2" style="margin-bottom: 40px">Spotify:</h2>
 
-    <iframe style="border-radius:12px; margin-left: 20px; margin-right: 20px" 
-        src="https://open.spotify.com/embed/track/4qG7hWhljsqqENL5PaLA2z?utm_source=generator" 
-        width="30%" 
-        height="300" 
+    <div class="container">
+        <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/track/4qG7hWhljsqqENL5PaLA2z?utm_source=generator" 
+            width= "450" 
+            height="350" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <div class="container">
+        <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/track/0JmnkIqdlnUzPaf8sqBRs3?" 
+            width="450" 
+            height="350" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <div>
+        <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/track/26hOm7dTtBi0TdpDGl141t?utm_source=generator" 
+            width="450" 
+            height="350" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+        </iframe>
+    </div>
+    
+    <div>
+    <iframe style="border-radius:12px; margin-left: 20px; margin-right: 20px;" 
+        src="https://open.spotify.com/embed/track/5rmIMPXAlfidbd9f2AfwlQ?utm_source=generator" 
+        width="450" 
+        height="350" 
         frameBorder="0" 
         allowfullscreen="" 
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
         loading="lazy">
     </iframe>
-
-    <iframe style="border-radius:12px; margin-left: 20px; margin-right: 20px" 
-        src="https://open.spotify.com/embed/track/0JmnkIqdlnUzPaf8sqBRs3?utm_source=generator" 
-        width="30%" 
-        height="300" 
-        frameBorder="0" 
-        allowfullscreen="" 
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-        loading="lazy">
-    </iframe>
+    </div>
 
 </body>
