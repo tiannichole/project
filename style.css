@@ -27,6 +27,15 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px #fab8e2;
+    font-weight: bold;
+}
+
 button {
     background-color: #eb92cb;
     border: 5px solid #FFFFFF;
