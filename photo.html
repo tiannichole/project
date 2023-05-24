@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
 
         .button {
@@ -42,14 +43,6 @@
             height: 300px;
             border-radius: 0%;
             position: relative;
-            display: inline-block;
-            margin: 15px;
-            margin-bottom: 40px;
-            opacity: 0.93;
-        }
-
-        .img1:hover {
-            opacity: 1;
         }
 
         .img2 {
@@ -59,16 +52,32 @@
             border-radius: 0%;
             object-fit: cover;
             position: absolute;
-            top: 6%;
-            left: 5.8%;
+            top: 3%;
+            left: 2.7%;
+        }
+
+        .container {
+            display: inline-block;
+            margin: 15px;
+            margin-bottom: 60px;
+            opacity: 0.93;
+        }
+
+        .container:hover {
+            opacity: 1;
         }
 
         .bottom {
             position: absolute;
+            top: 89%;
+            left:0;
+            right:0;
+            bottom:0;
             font-weight: bold;
+            color: black;
+            margin-right: 5px;
+            margin-left: 5px;
             color: rgb(4, 73, 4);
-            bottom: 2px;
-            left: 40px;
         }
 
         .highlight {
@@ -95,26 +104,31 @@
         </span>
     </p>
 
+    <div class="container">
         <div class="img1">
             <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
-            <div class="bottom">Harvard dining hall</div>
             <div class="img2">
                 <a target="_blank" href="assets/images/lev.jpg">
                     <img class="img2" src="assets/images/lev.jpg" alt="Leverett"/>
                 </a>
             </div>
+            <div class="bottom">Harvard dining hall</div>
         </div>
+    </div>
 
+    <div class="container">
         <div class="img1">
             <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
-            <div class="bottom">Letter of Commendation</div>
             <div class="img2">
                 <a target="_blank" href="assets/images/letterOfCommendation.jpg">
                     <img class="img2" src="assets/images/letterOfCommendation.jpg" alt="Letter of Commendation"/>
                 </a>
             </div>
+            <div class="bottom">Letter of Commendation</div>
         </div>
+    </div>
    
+    <div class="container">
         <div class="img1">
             <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
             <div class="img2">
@@ -124,7 +138,9 @@
             </div>
             <div class="bottom">Harvard Talent Show</div>
         </div>
+    </div>
 
+    <div class="container">
         <div class="img1">
             <img class="img1" src="assets/images/polaroidFrame.PNG" alt="frame" />
             <div class="img2">
@@ -132,8 +148,9 @@
                     <img class="img2" src="assets/images/STAT103HW.jpg" alt="STAT 103 HW"/>
                 </a>
             </div>
-            <div class="bottom">Harvard Biostatistics Homework</div>
+            <div class="bottom" style="top: 83%">Harvard Biostatistics <br> Homework</div>
         </div>
+    </div>
 
     <div class="container">
         <div class="img1">
@@ -167,7 +184,7 @@
                     <img class="img2" src="assets/images/Nats.jpg" alt="Districts"/>
                 </a>
             </div>
-            <div class="bottom">First place at Districts (Debate)</div>
+            <div class="bottom" style="top: 83%">First place at Districts <br> (Debate)</div>
         </div>
     </div>
 
@@ -239,7 +256,7 @@
                     <img class="img2" src="assets/images/parksAppreciation.jpg" alt="Leverett"/>
                 </a>
             </div>
-            <div class="bottom">Volunteering at Parks Appreciation Day</div>
+            <div class="bottom" style="top: 83%">Volunteering at Parks <br> Appreciation Day</div>
         </div>
     </div>
 
@@ -263,7 +280,7 @@
                     <img class="img2" src="assets/images/studentOfDistinction.jpg" alt="Students of Distinction"/>
                 </a>
             </div>
-            <div class="bottom">Students of Distinction Ceremony</div>
+            <div class="bottom" style="top: 83%">Students of Distinction <br> Ceremony</div>
         </div>
     </div>
 
