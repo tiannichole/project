@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
 
-        .button:hover {background-color: #efa8d5}
+        .button:hover {background-color: #4764c3}
         
         .button:active {
-            background-color: #eb92cb;
-            box-shadow: 0 5px #e982bd;
+            background-color: #2e4bab;
+            box-shadow: 0 5px #4764c3;
             transform: translateY(5px);
+        }
+
+        .button {
+            position: static;
+            background-color: #2e4bab;
+            color: white;
+            text-decoration: none;
+            position: static;
+            top: 5%;
+            left: 5%;
+            margin-top: 40px;
+            margin-left: 40px;
         }
         
         html {
-            background-image: url(assets/backgrounds/starPixel.png);
+            background-image: url(assets/backgrounds/bluePIxel.gif);
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
@@ -38,18 +50,28 @@
         .container {
             position: relative;
             display: inline-block;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-bottom: 20px;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 0px;
+            margin-top: 0px;
         }
 
     </style>
 </head>
 
-<body>
-    <h1 class="h1">Current Favorites...</h1>
-    <h2 class="h2" style="margin-bottom: 40px">Spotify:</h2>
+<body style="margin: 5%">
+    <h1 class="h1" style="margin-bottom: 140px">
+        Current Favorites...
+        <a href="index.html">
+            <button class="button">
+                Home
+            </button>
+        </a>
+    </h1>
 
+    <h2 class="h2" style="margin-bottom: 120px">Music:</h2>
+
+    <!-- Let The Light In - Lana Del Rey -->
     <div class="container">
         <iframe style="border-radius:12px" 
             src="https://open.spotify.com/embed/track/4qG7hWhljsqqENL5PaLA2z?utm_source=generator" 
@@ -63,9 +85,10 @@
         </iframe>
     </div>
 
+    <!-- !aqui yo mando! - Kali Uchis -->
     <div class="container">
         <iframe style="border-radius:12px" 
-            src="https://open.spotify.com/embed/track/0JmnkIqdlnUzPaf8sqBRs3?" 
+            src="https://open.spotify.com/embed/track/05ufCucv6Z1oLMWeS8XapR?utm_source=generator" 
             width="450" 
             height="350" 
             margin-bottom="0px" 
@@ -76,7 +99,8 @@
         </iframe>
     </div>
 
-    <div>
+    <!-- Die For You - Joji -->
+    <div class="container">
         <iframe style="border-radius:12px" 
             src="https://open.spotify.com/embed/track/26hOm7dTtBi0TdpDGl141t?utm_source=generator" 
             width="450" 
@@ -89,9 +113,24 @@
         </iframe>
     </div>
     
-    <div>
-        <iframe style="border-radius:12px; margin-left: 20px; margin-right: 20px;" 
-            src="https://open.spotify.com/embed/track/5rmIMPXAlfidbd9f2AfwlQ?utm_source=generator" 
+    <!-- Lose Your Smile - Beach House -->
+    <div class="container">
+        <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/track/56qNJTSiFfwDRU4EMXbOmL?utm_source=generator" 
+            width="450" 
+            height="350" 
+            margin-bottom="0px" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <!-- Diet Mountain Dew - Lana Del Rey -->
+    <div class="container">
+        <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/track/4O9dZs2B0ilk4PEfX2bPEv?utm_source=generator" 
             width="450" 
             height="350" 
             margin-bottom="0px" 
