@@ -10,7 +10,7 @@
             background-color: #238031;
             color: white;
             text-decoration: none;
-            position: absolute;
+            position: static;
             top: 5%;
             left: 5%;
             margin-top: 40px;
@@ -85,6 +85,7 @@
             background: rgb(50, 145, 63);
             line-height: 1.7;
             opacity: 0.7;
+            position: static;
         }
 
     </style>
@@ -92,16 +93,15 @@
 
 <body>
 
-    <a href="index.html">
-        <button class="button">
-            Home
-        </button>
-    </a>
-
     <p class="heading">
         <span class="highlight">
             Welcome to the photo gallery!
         </span>
+        <a href="index.html">
+            <button class="button">
+                Home
+            </button>
+        </a>
     </p>
 
     <div class="container">
