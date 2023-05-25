@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open bookshelf.html",
-            "file": "c:\\Users\\nicho\\OneDrive\\Documents\\GitHub\\project\\bookshelf.html"
+            "name": "Open index.html",
+            "file": "c:\\Users\\nicho\\OneDrive\\Documents\\GitHub\\project\\index.html"
         }
     ]
 }
