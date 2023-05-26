@@ -111,7 +111,7 @@ const questions = [
     {
         question: "What did Nichole study at Harvard?",
         optionA: "Genetics, Epidemiology, Biostatistics",
-        optionB: "Computer Programming (Python), Biostatistics",
+        optionB: "Python, Biostatistics",
         optionC: "Calculus, Genetics, Econometrics",
         optionD: "Data Science, Epidemiology",
         correctOption: "optionA"
@@ -181,47 +181,47 @@ const questions = [
     },
 
     {
-        question: "",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
+        question: "Nichole's pencil pounch was a birthday gift from her friend Nicole. How old was Nichole turning?",
+        optionA: "11",
+        optionB: "15",
+        optionC: "13",
+        optionD: "12",
         correctOption: "optionA"
     },
 
     {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        question: "Which song did Nichole play on the Piano at the Harvard Talent Show?",
+        optionA: "Moonlight Sonata: 3rd Movement",
+        optionB: "The Winner Takes It All",
+        optionC: "Clair de Lune",
+        optionD: "Where Angels Fear To Tread",
         correctOption: "optionB"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        question: "What was Nichole's childhood dream job?",
+        optionA: "Computer Programmer",
+        optionB: "Racecar Driver",
+        optionC: "Math Professor",
+        optionD: "Band Director",
         correctOption: "optionC"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
+        question: "Nichole created her first website with a team of friends for a hackathon. What was the hackathon theme?",
+        optionA: "Cyber Security",
+        optionB: "Black History Month",
+        optionC: "AAPI Month",
+        optionD: "Women's History Month",
         correctOption: "optionD"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
+        question: "What is Nichole's favorite pen?",
+        optionA: "Muji Polycarbonate 0.7",
+        optionB: "Micron Sakura 01 0.25",
+        optionC: "Pilot G2 0.7",
+        optionD: "Sharpie S-Gel 0.7",
         correctOption: "optionA"
     }
 
@@ -347,19 +347,9 @@ function handleEndGame() {
     let remark = null
     let remarkColor = null
 
-    // condition check for player remark and remark color
-    if (playerScore <= 3) {
-        remark = "Bad Grades, Keep Practicing."
-        remarkColor = "red"
-    }
-    else if (playerScore >= 4 && playerScore < 7) {
-        remark = "Average Grades, You can do better."
-        remarkColor = "orange"
-    }
-    else if (playerScore >= 7) {
-        remark = "Excellent, Keep the good work going."
-        remarkColor = "green"
-    }
+    remark = "Thank you for playing!"
+    remarkColor = "black"
+
     const playerGrade = (playerScore / 10) * 100
 
     //data to display to score board
