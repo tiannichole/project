@@ -10,10 +10,10 @@ const questions = [
 
     {
         question: "How many cities has Nichole lived in?",
-        optionA: "4 players",
-        optionB: "10 players",
-        optionC: "5 players",
-        optionD: "7 players",
+        optionA: "4",
+        optionB: "10",
+        optionC: "5",
+        optionD: "7",
         correctOption: "optionD"
     },
 
@@ -54,139 +54,139 @@ const questions = [
     },
 
     {
-        question: "",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "Nichole's favorite Icee flavor is...",
+        optionA: "Coke",
+        optionB: "Cherry",
+        optionC: "Blue Raspberry",
+        optionD: "Lime",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
-    },
-
-    {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
+        question: "How many siblings does Nichole have?",
+        optionA: "1",
+        optionB: "3",
+        optionC: "5",
+        optionD: "4",
         correctOption: "optionC"
     },
 
     {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
-        correctOption: "optionA"
-    },
-
-
-    {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "What is Nichole's favorite set of numbers?",
+        optionA: "2, 3, 8, 16",
+        optionB: "3, 6, 9, 19",
+        optionC: "7, 11, 13, 17",
+        optionD: "3, 5, 15, 125",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
+        question: "Nichole has regularly played which game since she was a kid?",
+        optionA: "Sudoku",
+        optionB: "Scrabble",
+        optionC: "Colorku",
+        optionD: "Uno",
         correctOption: "optionC"
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
+        question: "Nichole's computer has one sticker on it. What is that sticker?",
+        optionA: "3 sitting cats",
+        optionB: "Person wearing headphones",
+        optionC: "Spotify logo",
+        optionD: "Cat and person napping together",
         correctOption: "optionD"
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
+        question: "What is the first programming language Nichole learned?",
+        optionA: "Go",
+        optionB: "Java",
+        optionC: "R",
+        optionD: "Python",
+        correctOption: "optionA"
+    },
+
+
+    {
+        question: "What did Nichole study at Harvard?",
+        optionA: "Genetics, Epidemiology, Biostatistics",
+        optionB: "Computer Programming (Python), Biostatistics",
+        optionC: "Calculus, Genetics, Econometrics",
+        optionD: "Data Science, Epidemiology",
         correctOption: "optionA"
     },
 
     {
-        question: "How many planets are currently in the solar system ?",
+        question: "Nichole was nominated as a Student of Distinction in which category?",
+        optionA: "Academics",
+        optionB: "Community Service",
+        optionC: "Science and Technology",
+        optionD: "Career and Technical",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Nichole took one class at the high school during her junior year. What class did she take?",
+        optionA: "AP Computer Science Principles",
+        optionB: "AP Biology",
+        optionC: "AP Statistics",
+        optionD: "AP Calculus AB",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which Chrome extension is downloaded on all of Nichole's devices?",
+        optionA: "ProtonVPN",
+        optionB: "Securly",
+        optionC: "DuckDuckGo",
+        optionD: "Ecosia",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "How many times has Nichole listened to her most listened to track?",
+        optionA: "1,375",
+        optionB: "715",
+        optionC: "2,429",
+        optionD: "943",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "How many times has Nichole listened to her top artist?",
+        optionA: "5,844",
+        optionB: "8,137",
+        optionC: "2,685",
+        optionD: "3,911",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Which of these places has Nichole NOT volunteered at?",
+        optionA: "Cementary",
+        optionB: "Golf Course",
+        optionC: "Hospital",
+        optionD: "Soup Kitchen",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Nichole can recite how many digits of pi?",
+        optionA: "47",
+        optionB: "14",
+        optionC: "5",
+        optionD: "30",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "",
         optionA: "Eleven",
         optionB: "Seven",
         optionC: "Nine",
         optionD: "Eight",
-        correctOption: "optionD"
+        correctOption: "optionA"
     },
 
     {
@@ -204,7 +204,7 @@ const questions = [
         optionB: "Ears",
         optionC: "Fingers",
         optionD: "Nose",
-        correctOption: "optionB"
+        correctOption: "optionC"
     },
 
     {
@@ -213,7 +213,7 @@ const questions = [
         optionB: "Two",
         optionC: "Three",
         optionD: "Four",
-        correctOption: "optionC"
+        correctOption: "optionD"
     },
 
     {
@@ -222,7 +222,7 @@ const questions = [
         optionB: "30",
         optionC: "32",
         optionD: "36",
-        correctOption: "optionC"
+        correctOption: "optionA"
     }
 
 ]
