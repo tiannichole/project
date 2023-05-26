@@ -10,13 +10,31 @@
     
   <style type="text/css" media="screen">
 
-      html {
-          background-image: url(assets/backgrounds/greenPixel2.webp);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-attachment: fixed;
-          background: no-repeat center center cover;
-      }
+        html {
+            background: url(assets/backgrounds/greenPixel2.webp) no-repeat center center fixed;
+            background-size: cover;
+            width: 100%;
+            /* 
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background: no-repeat center center cover; 
+            */
+        }
+
+        #warning-message { display: none; }
+
+        @media only screen and (orientation:portrait) {
+            #wrapper { display:none; }
+            #warning-message { display:block; color: white;}
+    
+            html {
+                background: url(assets/backgrounds/greenPixel2.webp) no-repeat center center fixed;
+                background-size: cover;
+                height: 100%;
+            }       
+        }
 
       body {
           font-family: 'Prata', serif;
