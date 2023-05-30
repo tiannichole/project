@@ -190,7 +190,7 @@ const questions = [
     },
 
     {
-        question: "Which song did Nichole play on the Piano at the Harvard Talent Show?",
+        question: "Which song did Nichole play on the piano at the Harvard Talent Show?",
         optionA: "Moonlight Sonata: 3rd Movement",
         optionB: "The Winner Takes It All",
         optionC: "Clair de Lune",
