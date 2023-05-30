@@ -76,6 +76,7 @@ main {
     border: 2px solid rgba(147, 188, 190, 0.989);
     border-radius: 20px;
     overflow: hidden;
+    text-align: center;
 }
 span label {
     width: 100%;
