@@ -151,7 +151,7 @@ input[type=radio]:checked ~ .option {
     height: 22rem;
     width: 26rem;
     background-color: rgba(194, 228, 230, 0.755);
-    border: 2px solid rgb(252, 242, 241);
+    border: 2px solid rgba(157, 191, 193, 0.755);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,6 +164,8 @@ input[type=radio]:checked ~ .option {
     height: 3rem;
     color: black;
     text-align: center;
+    margin: 5%;
+    margin-top: 10%;
 }
 
 .grade-details{
@@ -176,8 +178,9 @@ input[type=radio]:checked ~ .option {
 }
 
 .grade-details p{
-    color: white;
+    color: black;
     text-align: center;
+    font-weight: bold;
 }
 
 .modal-button-container{
@@ -186,6 +189,7 @@ input[type=radio]:checked ~ .option {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10%;
 }
 
 .modal-button-container button{
@@ -193,7 +197,7 @@ input[type=radio]:checked ~ .option {
     height: 4rem;
     background: none;
     outline: none;
-    border: 1px solid rgb(252, 242, 241);
+    border: 2px solid rgba(157, 191, 193, 0.755);
     color: black;
     font-size: 1.1rem;
     font-weight: bold;
