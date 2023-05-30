@@ -176,7 +176,7 @@ const questions = [
         optionA: "47",
         optionB: "14",
         optionC: "5",
-        optionD: "30",
+        optionD: "31",
         correctOption: "optionD"
     },
 
