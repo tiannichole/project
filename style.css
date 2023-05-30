@@ -14,7 +14,7 @@ p {
     color: #000000;
     margin: 100px;
     margin-top: 100px;
-    font-size: 25px;
+    font-size: 2em;
     letter-spacing: 1px;
 }
 
@@ -22,7 +22,7 @@ h1 {
     color: #FA58D0;
     text-align: center;
     margin-top: 100px;
-    font-size: 80px;
+    font-size: 5.3em;
     text-shadow: 3px 3px 5px #fab8e2;
     font-weight: bold;
 }
@@ -31,7 +31,6 @@ h2 {
     position: relative;
     text-align: center;
     margin-top: 80px;
-    font-size: 50px;
     text-shadow: 3px 3px 5px #fab8e2;
     font-weight: bold;
 }
@@ -47,7 +46,7 @@ button {
     margin: 5px;
     color: #FFFF;
     position: static;
-    font-size: 22px;
+    font-size: 1.3em;
     text-decoration: none;
 }
 
