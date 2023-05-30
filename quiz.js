@@ -38,7 +38,7 @@ const questions = [
     {
         question: "What will Nichole study at UW?",
         optionA: "Biology and Computer Engineering",
-        optionB: "Statistics and Data Science",
+        optionB: "Statistics",
         optionC: "Computer Science",
         optionD: "Applied Mathematics",
         correctOption: "optionB"
@@ -164,7 +164,7 @@ const questions = [
 
     {
         question: "Which of these places has Nichole NOT volunteered at?",
-        optionA: "Cementary",
+        optionA: "Cemetery",
         optionB: "Golf Course",
         optionC: "Hospital",
         optionD: "Soup Kitchen",

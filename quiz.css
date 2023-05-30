@@ -57,6 +57,8 @@ main {
     font-size: 1.1rem;
     text-align: center;
     padding: 3px;
+    margin: 3%;
+    line-height: 1.5;
 }
 
 .game-options-container {
