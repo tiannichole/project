@@ -14,16 +14,16 @@ p {
     color: #000000;
     margin: 100px;
     margin-top: 100px;
-    font-size: 2em;
+    font-size: 1.8vw;
     letter-spacing: 1px;
 }
 
 h1 {
     color: #FA58D0;
     text-align: center;
-    margin-top: 100px;
-    font-size: 5.3em;
-    text-shadow: 3px 3px 5px #fab8e2;
+    margin-top: 6.5vw;
+    font-size: 5.3vw;
+    text-shadow: 0.2vw 0.2vw 0.2vw #fab8e2;
     font-weight: bold;
 }
 
@@ -37,36 +37,36 @@ h2 {
 
 button {
     background-color: #eb92cb;
-    border: 5px solid #FFFFFF;
-    padding: 20px 50px;
+    border: 0.3vw solid #FFFFFF;
+    padding: 1.2vw 3.1vw;
     cursor: pointer;
     display: inline-block;
     text-align: center;
-    box-shadow: 3 px #999;
-    margin: 5px;
+    box-shadow: 0.3vw #999;
+    margin: 0.3vw;
     color: #FFFF;
     position: static;
-    font-size: 1.3em;
+    font-size: 1.3vw;
     text-decoration: none;
 }
 
 button.icons {
     background-color: #eb92cb;
-    border: 5px solid #FFFFFF;
-    padding: 18px 25px;
+    border: 0.3vw solid #FFFFFF;
+    padding: 1.2vw 1.7vw;
     cursor: pointer;
     display: inline-block;
     text-align: center;
-    box-shadow: 3 px #999;
-    margin: 5px;
-    border-radius: 45px;
+    box-shadow: 0.3vw #999;
+    margin: 0.3vw;
+    border-radius: 33%;
     color: #FFFF;
-    position: relative;
+    position: static;
     bottom: 90%;
 }
 
 img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
 }
